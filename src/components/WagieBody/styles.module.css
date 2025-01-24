@@ -1,0 +1,19 @@
+.wrapper {
+    width: 100vw;
+    flex-grow: 1;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    width: 35rem;
+    height: 3rem;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+}

@@ -1,0 +1,9 @@
+.btn {
+    background-color: #FF6F00;
+    height: 3rem;
+    width: 15rem;
+    border-radius: 25px;
+    font-family: "Yatra One", serif;
+    color: white;
+    font-size: 1rem;
+}

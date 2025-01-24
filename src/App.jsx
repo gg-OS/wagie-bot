@@ -1,17 +1,12 @@
-import { useState } from 'react'
-import Wagie from "./components/Wagie"
-import Header from "./components/Header"
-import './App.css'
+import Header from './components/Header'
+import WagieBody from './components/WagieBody'
+import styles from './App.module.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
+    <div className={styles.root}>
       <Header />
-      <Wagie />
-    </>
+      <WagieBody />
+    </div>
   )
 }
-
-export default App
